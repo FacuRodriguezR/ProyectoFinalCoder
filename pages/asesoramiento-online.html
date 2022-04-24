@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <title>Come para sanar</title>
+</head>
+<body>
+	<nav class="nav navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><img src="/img/logofacebook.png" alt="logo pagina" width="170px"
+                    height="170px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contactos.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Asesoramiento
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="asesoramiento-online.html">Online</a></li>
+                            <li><a class="dropdown-item" href="asesoramiento-presencial.html">Presencial</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+	<main>
+		<section class="grill">
+			<article class="grill_article-text">
+				<h2>¿De que se trata?</h2>
+				<p>Info sobre el servicio de consulta online</p>
+			</article>
+			<article class="grill_article-form">
+				<!-- Inicia Form -->
+				<div>
+					<form action="envio.php" method="post" class="org_consultas">
+						<legend class="org_consultas">Para conocernos un poco más</legend>
+						<label for="motivo de consulta">Motivo de consulta:</label>
+						<input class="org_consultas" type="text" name="motivo de consulta">
+						<legend class="org_consultas">Objetivos nutricionales:</legend>
+						<div class="form_div-flex">
+							<label class="org_consultas" for="text">Bajar grasa corporal
+								<input type="checkbox" name="BajarGrasaCorporal">
+							</label>
+						</div>
+						<div class="form_div-flex">
+							<label for="Subir masa muscular">Subir masa muscular
+								<input type="checkbox" name="subir masa muscular" value="subir masa muscular">
+							</label>
+						</div>
+						<div class="form_div-flex">
+							<label for="Mantener mi composición corporal y llevar una alimentación equilibrada">Mantener
+								mi composición corporal
+								<input type="checkbox" name="Mantener mi composición corporal">
+							</label>
+						</div>
+						<label for="otros">Otros</label>
+						<input type="text" name="otros">
+						<input type="submit" value="Enviar">
+						<input type="reset" value="Cancelar">
+					</form>
+				</div>
+			</article>
+		</section>
+	</main>
+	<footer>
+		<h3>Redes Sociales</h3>
+		<a href="https://facebook.com/melodyfiliberi" target="blanck">
+			<img src="https://img.icons8.com/color/48/000000/facebook.png" />
+		</a>
+		<a href="https://instagram.com/come.para.sanar" target="blanck">
+			<img src="https://img.icons8.com/color/48/000000/instagram-new--v1.png" />
+		</a>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+	</script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+@import"_generales" 
+.bodyIndex{
+    display: grid;
+    grid-template-areas: 'nav nav nav nav '
+    'titulo titulo titulo titulo'
+    'card card card1 card1'
+    'footer footer footer footer'
+     ;
+     margin: 0;
+     padding: 0;
+     background-color: rgb(177, 191, 206);
+}
+
+.nav{
+    grid-area: nav;
+    
+}
+
+.tituloPrincipal{
+    grid-area: titulo;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(177, 191, 206) ;
+    font-family: 'PT Sans', sans-serif;
+    
+}
+
+.tituloPrincipal h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cards-body{
+    grid-area: card;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+/* footer */
+.footer1{
+    display: grid;
+    grid-template-areas: 'parrafo imagenes nombre';
+  align-items: center;
+    justify-items: flex-start;
+}
+
+.sectionFooter{
+    padding: 20px;
+}
+.cards-body1{
+    display: flex;
+    grid-area: card1;
+    justify-content: center;
+    padding: 20px;
+}
+
+.parrafo{
+    grid-area: parrafo;
+}
+
+.iconosFooter{
+    grid-area: imagenes;
+}
+.iconosFooter:hover 
+
+.nombre{
+    grid-area: nombre;
+}
+/* fin footer */
+.footerIndex{
+    grid-area: footer;
+    background-color: #212529;
+    display: flex;
+    padding: 50px;
+    color: white;
+}
+.card-body{
+    background-color: pink;
+    font-family: 'Anek Odia', sans-serif;
+    border: solid 2px black;
+   
+}
+
+.card-body h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-body p {
+    font-size: 20px;
+
+}
+
+.nav-item{
+    font-size: 25px;
+}
+.navbar{
+    background-color: rgb(177, 191, 206);
+}
+
+.card img {
+    border: solid 2px black;
+}
